@@ -39,7 +39,7 @@ const SpecialOffers:React.FC = () =>{
       className='bg-white shadow-lg rounded-lg text-center hover:bg-grey-300 transition duration-300 transform hover:scale-105'>
         <h3 className='text-2xl font-semibold text-red-700'>  {offer.title}
         </h3>
-          <p className='text-slate-700 mt-3'>{offer.description}</p>
+          <p className='text-slate-700 mt-3'>&#39;{offer.description}&#39;</p>
         
 
       </button>
